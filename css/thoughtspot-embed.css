@@ -7,7 +7,7 @@
 
 :root 
 {
-    --ts-var-root-font-family: 'Inter', Helvetica, Arial, sans-serif;
+    --ts-var-root-font-family: Inter, Roboto, 'Open Sans', sans-serif !default;
 }
 
 @font-face
