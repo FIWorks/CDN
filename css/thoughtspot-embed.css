@@ -1,38 +1,66 @@
+:root 
+{
+    --ts-var-root-font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+@font-face
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/files/inter-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/files/inter-latin-400-italic.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/files/inter-latin-600-normal.woff2') format('woff2');
+}
+
+@font-face 
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/files/inter-latin-700-normal.woff2') format('woff2');
+}
+
 body
 {
-}
-:root {
-  --ts-var-root-font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-variant-numeric: tabular-nums !important;    
 }
 
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/files/inter-latin-400-normal.woff2') format('woff2');
+/* Liveboard Headers*/
+.pinboard-header-module__headerTitleCompact
+{
+    font-weight: 500;
 }
 
-@font-face {
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url('https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/files/inter-latin-400-italic.woff2') format('woff2');
+/* Filters */
+.chip-base-module__chipText.chip-base-module__bold
+{
+    font-weight: 600;
 }
 
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/files/inter-latin-600-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/files/inter-latin-700-normal.woff2') format('woff2');
+/* Tables. */
+.table-module__fullContainer,
+.bk-outline .ag-theme-alpine,
+.bk-outline .ag-theme-alpine .ag-cell
+{
+    font-family: var(--ts-var-root-font-family) !important;
+    font-variant-numeric: tabular-nums !important;
 }
