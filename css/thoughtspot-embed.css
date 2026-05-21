@@ -84,9 +84,14 @@ body
 }
 
 /* Tables. */
+/* There are 3 themes we style for: outline, row, and zebra. */
 .table-module__fullContainer,
 .bk-outline .ag-theme-alpine,
-.bk-outline .ag-theme-alpine .ag-cell
+.bk-outline .ag-theme-alpine .ag-cell,
+.bk-row .ag-theme-alpine,
+.bk-row .ag-theme-alpine .ag-row,
+.bk-zebra .ag-theme-alpine,
+.bk-zebra .ag-theme-alpine .ag-row
 {
     font-family: var(--ts-var-root-font-family) !important;
     font-variant-numeric: tabular-nums !important;
