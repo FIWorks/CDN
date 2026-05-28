@@ -69,12 +69,6 @@ body
     font-variant-numeric: tabular-nums !important;    
 }
 
-/* Liveboards - Add spacing above header box. */
-.pinboard-module__pinboardPage
-{
-    padding-top: 1rem;
-}
-
 /* Liveboards - Headers, tabs, liveboard names in grid. */
 .pinboard-header-module__headerTitleCompact,
 .liveboard-tab-item-module__tabName,
